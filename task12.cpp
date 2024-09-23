@@ -12,6 +12,7 @@ cin>>width;
 cout<<"Height of single wall (in meters):";
 cin>>height;
 float painted_walls;
-painted_walls = height*width/sq_meter;
+float area=height*height;
+painted_walls = sq_meter/area;
 cout<<"Number of walls you can paint:"<<painted_walls;
 }

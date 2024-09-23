@@ -2,17 +2,21 @@
 using namespace std;
 main()
 {
-int  num1,num2,num3,num4,num5;
+int  number,sum=0;
 cout<<"Enter number 1:";
-cin>>num1;
+cin>>number;
+sum=number+sum;
 cout<<"Enter number 2:";
-cin>>num2;
+cin>>number;
+sum=number+sum;
 cout<<"Enter number 3:";
-cin>>num3;
+cin>>number;
+sum=number+sum;
 cout<<"Enter number 4:";
-cin>>num4;
+cin>>number;
+sum=number+sum;
 cout<<"Enter number 5:";
-cin>>num5;
-int sum = num1+num2+num3+num4+num5;
-cout<<sum;
+cin>>number;
+sum=number+sum;
+cout<< "Sum is: "<<sum;
 }
